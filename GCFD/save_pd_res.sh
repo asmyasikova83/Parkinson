@@ -15,7 +15,7 @@ source Names.config
 #echo "DONE"
 #echo ""
 
-declare -a Type=("control")
+declare -a Type=("ses_on")
 declare -a Seed=("0")
 #beta 13-30, gamma 50 to 150Hz
 #low beta -gamma, Frp = 1, FrQ = 2
