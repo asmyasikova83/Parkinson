@@ -1,0 +1,7 @@
+
+run GCFD
+
+back_pd(algo(front_pd(conf(), {'Name', 'PD_2', 'load_elec', 'true'})))
+
+convert bdf into txt, as required in front_pd
+daniil@daniil-XPS-17-9730:~/workspase/eeglab/edf2ascii_ver14_source$ ./edf2ascii ../../BDF_PD/PD_2.BDF
