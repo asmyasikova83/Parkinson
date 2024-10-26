@@ -37,14 +37,17 @@ ersp_compute_ersp_single_trial_on_off.m
 
 2. visualise ERSPs with t-statistics
 ersp_stat_plot_conditions_single_trial_control.m
+
 ersp_stat_plot_conditions_single_trial_on_off.m
+
 ersp_stat_plot_comparison_single_trial_control.m
+
 ersp_stat_plot_comparison_single_trial_on_off.m
 
 GCDF/
 project for cross-frequency analysis
 
 save_pd_concat.sh - script which runs mat_save_concat_elec.m and creares, saves data (elecs) in the assigned dir
-save_pd_res.sh - script which runs mat_save_pat_pval.m which runs the GCFD for all participants and base frequencies of interest, conducts permutations and saves the p, q spatial patterns
-(scalp topos), PLVs (ku values), pvals for p,q patterns
+
+save_pd_res.sh - script which runs mat_save_pat_pval.m which runs the GCFD for all participants and base frequencies of interest, conducts permutations and saves the p, q spatial patterns(scalp topos), PLVs (ku values), pvals for p,q patterns
 
