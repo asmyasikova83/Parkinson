@@ -15,8 +15,7 @@ source Names.config
 #echo "DONE"
 #echo ""
 
-#"control"
-declare -a Type=("ses_on")
+declare -a Type=("ses_off" "ses_on" "control" )
 declare -a Seed=("0")
 test_no=1
 for currName in "${Name[@]}"

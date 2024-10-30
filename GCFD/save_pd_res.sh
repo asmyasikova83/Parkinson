@@ -15,7 +15,7 @@ source Names.config
 #echo "DONE"
 #echo ""
 
-declare -a Type=("ses_on")
+declare -a Type=("ses_off")
 declare -a Seed=("0")
 #beta 13-30, gamma 50 to 150Hz
 #low beta -gamma, Frp = 1, FrQ = 2
@@ -23,7 +23,7 @@ declare -a Seed=("0")
 #Beta 2 ("17" "18" "19" "20")
 #Beta 1 ("13" "14" "15" "16")
 #declare -a FrBase=("16" "17" "18" "19" "20")
-declare -a FrBase=("13" "15" "17" "19" "22" "24" "26" "28" "30")
+declare -a FrBase=("13" "15" "17" "19" "21" "23" "25" "27" "29" "31")
 test_no=1
 for currName in "${Name[@]}"
 do
