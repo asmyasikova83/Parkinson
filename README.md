@@ -43,9 +43,9 @@ back_pd(algo(front_pd(conf(), {'Name', 'PD_2', 'load_elec', 'true'})))
 
 II. Analysis and visualization
 
-1_save_kuramotos.m in a table
-2_PLV_lme.m build and analyze the LMM model (3: see the article) 
-3_compare_kuramotos.m  develop LMM model to estimate spurious CFS
+1. save_kuramotos_1.m in a table
+2. PLV_lme_2.m build and analyze the LMM model (3: see the article) 
+3. compare_kuramotos_3.m  develop LMM model to estimate spurious CFS
 
 III. Make source topographies for Fig2B
 
