@@ -1,0 +1,37 @@
+MMSE (Mini-Mental State Examination) in Parkinson’s Disease
+
+The Mini-Mental State Examination (MMSE) is a widely used cognitive screening tool in Parkinson’s disease (PD) to assess general cognitive function. It evaluates multiple domains, including orientation, memory, attention, language, and visuospatial skills. Key points regarding MMSE in PD:
+
+    Purpose in PD:
+        Detects cognitive decline, which is common in later stages of PD and may progress to Parkinson’s disease dementia (PDD).
+        Helps differentiate between mild cognitive impairment (MCI) and more severe cognitive impairments.
+
+    Limitations:
+        The MMSE may not detect subtle cognitive deficits in early PD, especially in areas like executive function or visuospatial processing.
+        It might be less sensitive compared to more detailed cognitive batteries, such as the Montreal Cognitive Assessment (MoCA).
+
+    Scoring:
+        Scores range from 0 to 30, with lower scores indicating greater cognitive impairment.
+        A cutoff of <24 is often used to signify cognitive impairment, but thresholds can vary depending on demographics.
+        
+NAART (North American Adult Reading Test) in Parkinson’s Disease
+
+The North American Adult Reading Test (NAART) is a tool used to estimate premorbid intelligence, which can provide a baseline against which cognitive decline is assessed. It is particularly useful in PD for understanding cognitive changes relative to a patient's expected level of function.
+
+    Purpose in PD:
+        Provides a measure of premorbid cognitive ability, which helps distinguish between cognitive decline due to PD versus a lifelong lower cognitive baseline.
+        Often used in neuropsychological assessments to control for premorbid ability when evaluating dementia or other cognitive impairments.
+
+    How it Works:
+        Participants are asked to pronounce irregularly spelled words (e.g., “colonel” or “aisle”), which rely on verbal intelligence and are resistant to cognitive decline in most conditions.
+
+    Relevance to PD:
+        Helps contextualize current cognitive functioning, especially when cognitive impairment is suspected.
+        Useful in research to stratify individuals by cognitive reserve, a factor that might influence the onset or severity of cognitive decline in PD.
+
+In Parkinson’s Disease
+
+    MMSE: Primarily measures current cognitive function and is used to track cognitive decline over time.
+    NAART: Assesses premorbid intelligence to evaluate the relative impact of PD on cognition, helping to distinguish disease-related changes from baseline intellectual capacity.
+
+These tools are complementary in the comprehensive assessment of cognition in Parkinson’s disease, with the MMSE focusing on present abilities and the NAART providing a historical benchmark.

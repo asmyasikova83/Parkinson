@@ -6,9 +6,21 @@ you need data in .txt
 cd edf2ascii_ver14_source/
 ./edf2ascii ../../BDF_PD/PD_2.BDF
 
-launch GCFD
 
-1. run the folowing scripts
+____________________________________________________________________
+
+GCDF/
+project for cross-frequency analysis
+
+I. CFS estimates, scripts for automatic processing
+
+1. save_pd_concat.sh - script which runs mat_save_concat_elec.m and creares, saves data (elecs) in the assigned dir
+
+2. save_pd_res.sh - script which runs mat_save_pat_pval.m which runs the GCFD for all participants and base frequencies of interest, conducts permutations and saves the p, q spatial patterns(scalp topos), PLVs (ku values), pvals for p,q patterns
+
+launch GCFD in the MATLAB console, manual processing 
+
+1. run the folowing scripts to add dependencies
 
 matlab_SPoC/
 startup_spoc
@@ -17,7 +29,7 @@ startup_spoc
 bbci_public/
 startup_bbci_toolbox
 
-2. this is how us run the front() to save or load elec
+2. this is how we manually  run the front() to save or load elec
 
 front_pd(conf(), {'Name', 'PD_2', 'save_elec', 'true'})
 
@@ -29,27 +41,33 @@ algo(front_pd(conf(), {'Name', 'PD_2', 'load_elec', 'true'}))
 
 back_pd(algo(front_pd(conf(), {'Name', 'PD_2', 'load_elec', 'true'})))
 
-____________________________________________________________________
-ERSP/
+II. Analysis and visualization
+
+1_save_kuramotos.m in a table
+2_PLV_lme.m build and analyze the LMM model (3: see the article) 
+3_compare_kuramotos.m  develop LMM model to estimate spurious CFS
+
+III. Make source topographies for Fig2B
+
+GCFD/gcfd/task/atlas/pd/Fig2B_plot_average.m
+
+Add all the paths and settings in GCFD/gcfd/task/atlas
+
+IV. Cognitive scores and PLVs are not significant, the scripts are in Parkinson/Cognitive_measurements
+______________________________________________________________________________________________________
+ERSP_deprecated/
 project for conducting event-related spectral perturbations in PD data and visualising them
 
+Now deprecated
+
 1. compute ERSP for each condition
-ersp_compute_ersp_single_trial_control.m
-ersp_compute_ersp_single_trial_on_off.m
+ersp_compute_
 
 2. visualise ERSPs with t-statistics
-ersp_stat_plot_conditions_single_trial_control.m
+ersp_stat_plot_conditions_
+ersp_stat_plot_comparison_
 
-ersp_stat_plot_conditions_single_trial_on_off.m
+Power_deprecated/
+project for computing, comparing, visualising log power 
 
-ersp_stat_plot_comparison_single_trial_control.m
-
-ersp_stat_plot_comparison_single_trial_on_off.m
-
-GCDF/
-project for cross-frequency analysis
-
-save_pd_concat.sh - script which runs mat_save_concat_elec.m and creares, saves data (elecs) in the assigned dir
-
-save_pd_res.sh - script which runs mat_save_pat_pval.m which runs the GCFD for all participants and base frequencies of interest, conducts permutations and saves the p, q spatial patterns(scalp topos), PLVs (ku values), pvals for p,q patterns
-
+Now deprecated

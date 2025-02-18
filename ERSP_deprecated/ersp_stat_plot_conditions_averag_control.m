@@ -6,10 +6,10 @@ subjects = {'PD_2', 'PD_4', 'PD_7', 'PD_8', 'PD_10', 'PD_18', 'PD_20', ...
 
 conditions = {'control'};  % Include both conditions
 channelIdx = 8;  % %(e.g., C3 = 8, F3 = 4, F4 = 27, C4 = 23, P4 = 19, P3 = 12)
-filepath = '/home/daniil/workspase/SET_PD/ses_off_control/';  % Path to saved ERSP data
+filepath = '/home/daniil/workspase/SET_PD_nobline/single_trial/ses_off_ses_on_control/';  % Path to saved ERSP data
 
 % Get channel label
-EEG = pop_loadset('/home/daniil/workspase/SET_PD/ses_on/PD_6_ses_on.set');
+EEG = pop_loadset('/home/daniil/workspase/SET_PD_nobline/single_trial/ses_on/PD_6.set');
 channelLabel = EEG.chanlocs(channelIdx).labels;  % Get channel label 
 
 % Parameters for bootstrapping

@@ -1,4 +1,4 @@
-%Script form plotting  mean ERSP difference with statistically significant
+ %Script form plotting  mean ERSP difference with statistically significant
 %mask (ttest, uncorrected, p-value)
 % Define variables
 subjects_off = {'PD_26', 'PD_28', 'PD_3', 'PD_5', 'PD_28', ...
